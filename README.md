@@ -7,10 +7,12 @@ STT-python is a simple yet powerful speech-to-text application that allows users
 
 ## Features
 
-- Real-time speech-to-text conversion
-- Support for multiple languages (to be implemented)
-- Easy-to-use command-line interface
-- Exportable text output
+- Speech-to-text conversion using OpenAI's API
+- Text-to-speech functionality
+- Microphone selection and testing
+- Audio playback before sending to API (optional)
+- Copy transcribed text to clipboard
+- User-friendly graphical interface
 
 ## Installation
 
@@ -30,6 +32,7 @@ STT-python is a simple yet powerful speech-to-text application that allows users
 
    Option B: Using Conda
    ```bash
+   conda init
    conda create -n stt-python python=3.9
    conda activate stt-python
    ```
